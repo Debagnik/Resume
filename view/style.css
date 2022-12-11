@@ -125,7 +125,7 @@ hr {
 }
 
 .jumbotron {
-    background: no-repeat center right fixed url(./Images/background.png);
+    background: no-repeat center right fixed url(./Images/background.webp);
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
