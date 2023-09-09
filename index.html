@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+    why are you peeping in here
+  _____       _                       _ _      _  __          
+ |  __ \     | |                     (_) |    | |/ /          
+ | |  | | ___| |__   __ _  __ _ _ __  _| | __ | ' / __ _ _ __ 
+ | |  | |/ _ \ '_ \ / _` |/ _` | '_ \| | |/ / |  < / _` | '__|
+ | |__| |  __/ |_) | (_| | (_| | | | | |   <  | . \ (_| | |   
+ |_____/ \___|_.__/ \__,_|\__, |_| |_|_|_|\_\ |_|\_\__,_|_|   
+                           __/ |                              
+                          |___/                               
+        the date is 20/07/2022 and this webpage is hosted at github and domain is at debagnik.in. this is the new revamped Portfolio website
+-->
+
+<!--
+    This is Shouko Komeow-san, Please treat her well
+
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣶⣦⣴⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⣀⣀⠀⠀⠀⢠⣧⢻⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿⣿⣷⣦⣄⠀⠀⠀⠀⠀⠀⠀⢀⣠⣤⡄⠀⠀⠀⠀
+⠀⠀⠀⢠⣿⣿⣿⡿⣿⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁⠀⣠⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣀⣀⣤⣶⣾⣿⣿⣿⡇⠀⠀⠀⠀
+⠀⠀⠀⣸⣿⣿⣿⣷⣾⣿⣋⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀
+⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⠀⠀⠀⠀
+⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⣿⣿⣿⢿⠻⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋⠀⠀⠀⠀⠀
+⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡶⠃⢸⣀⢸⡈⢿⡏⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⢸⣿⣿⣷⣼⣿⣷⣿⣿⣯⣿⣻⠻⡿⣿⣿⣿⣿⣿⣿⣷⡀⠀⠀⠀⠀
+⠀⠀⠀⡿⢿⠻⣿⣿⣏⣼⣧⣿⢿⣿⣿⠟⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣷⣴⣀⡀⠘⡈⢿⣿⣿⡄⠀⠀⠀
+⠀⠀⠀⡁⠀⠀⡇⣾⠟⢋⡙⢿⢸⠁⣿⣀⠀⠀⠀⠀⠉⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣄⡇⣈⡟⠹⣿⣆⠀⠀
+⠀⠀⠀⣷⣼⣰⣿⠏⠀⠀⢰⣼⣿⣷⡏⠙⠻⠿⢶⣶⣤⣘⣿⣿⢿⣿⣿⣿⣿⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⡄⢹⢻⣆⠀
+⠀⠀⠀⢹⣿⣿⣿⠀⣀⡀⢀⣿⣿⣿⡇⠐⡄⠀⣶⣿⣿⣿⠻⣿⢧⣹⣿⣿⣿⡄⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⣾⠞⣿⡆
+⠀⠀⠀⢸⣿⣿⣿⡆⠱⣄⣸⣼⣿⣿⡇⠀⠙⢄⣻⣿⣿⠟⠀⠈⠃⠀⠀⠈⠉⠻⣾⣿⣿⣿⣟⣿⣿⣿⣿⣿⣿⣿⣿⣯⠟⠁
+⠀⠀⠀⢸⣿⣿⣿⣿⣆⠀⠈⢹⣿⣿⡇⠀⠀⠀⠀⠉⠀⠁⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⡇⠉⠛⢿⣿⣿⡿⣿⠟⠋⠉⠀⠀⠀
+⠀⠀⠀⣾⣿⣿⣿⣿⣿⠟⠦⣼⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣏⣀⣠⣶⠏⠭⠥⠚⠁⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⣿⣿⣿⣿⣿⣿⠀⠀⢸⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⣰⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⣿⣿⣿⣿⣿⣿⡇⠀⢸⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⡀⠸⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⣸⣿⣿⣿⣿⡟⠻⡜⣧⠀⣿⣿⡇⠑⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠔⠛⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⣇⣿⣿⣿⣿⠓⣤⠹⣿⣦⣿⣿⡇⠰⠈⠳⣦⣀⠀⠀⠀⠀⠀⢀⣠⠔⠊⠀⠀⠀⣏⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⣸⣿⣿⣿⡿⠁⠀⠈⠓⢽⣿⣿⣿⣇⠀⠂⠸⠻⣿⣛⣲⠖⠊⣿⣿⡇⠀⠀⠀⠀⠀⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠞⣿⣿⣿⠟⠀⠀⠀⠀⠀⠀⠉⠻⡈⣿⠉⠢⢄⡀⠈⠻⡅⢀⣼⣼⢿⠃⠀⠀⠀⠀⠀⠻⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⢀⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⣀⢀⣹⢿⣿⣐⡢⣌⡑⠢⣌⣻⣋⠁⠞⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                        
+
+
+-->
+
+<!--
+		List of subdomains for debagnik.in
+		1.	debagnik.in  -- this webpage
+		2.	www.debagnik.in -- World Wide Web version of this page
+		3.	dns.debagnik.in -- Points to DNS + VPN Server but won't work.
+		4.	admin.debagnik.in -- points to the admin web interface of the PiHole (DNS) service, this is an unmasked URL redirect to dns.debagnikkar.me/admin
+        5.  i-vote.debagnik.in -- points to a github page of my I-Voting project repo.
+-->
+
+
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="content-script-type" content="text/html"/>
+        <meta http-equiv="content-script-type" content="text/javascript"/>
+        <meta http-equiv="content-script-type" content="text/css"/>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+        <meta name="description" content="I am Debagnik Kar, your friendly neighbourhood nerd, I am interested in IoT, Embedded systems, Blockchain, Cybersecurity, Software development and Sound Engineering"/>
+        <meta name="keywords" content="Debagnik Kar, Debagnik, Kar, Rak, Kingabed, Rak Kingabed, Rak_Kingabed, Software Developer, programmer, python, HRMatches"/>
+        <meta name="author" content="Debagnik Kar"/>
+        <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="robots" content="index, follow">
+        <meta name="revisit-after" content="1 days">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#000000">
+
+        <!--Google Tags Manager-->
+        <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-K4THDHC"></script>
+        <script>
+            (function(w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start': new Date().getTime(),
+                    event: 'gtm.js'
+                });
+                var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-K4THDHC');
+        </script>
+        <!--End Google Tag Manager-->
+        
+        <!-- Begin Inspectlet Asynchronous Code -->
+        <script type="text/javascript">
+        (function() {
+        window.__insp = window.__insp || [];
+        __insp.push(['wid', 1744730364]);
+        var ldinsp = function(){
+        if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=1744730364&r=' + Math.floor(new Date().getTime()/3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+        setTimeout(ldinsp, 0);
+        })();
+        </script>
+        <!-- End Inspectlet Asynchronous Code -->
+        <!-- All JS -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Title -->
+        <title>Debagnik Kar - Your Friendly Neighbourhood Nerd</title>
+        <!-- Favicon -->
+        <link href="img/favicon.png" type="image/png" rel="icon">
+
+        <!-- All CSS -->
+        <link href="css/plugins.css" rel="stylesheet" type="text/css">
+        <link href="css/main.css" rel="stylesheet" type="text/css">
+        <link href="css/responsive.css" rel="stylesheet" type="text/css">
+        
+        
+    </head>
+
+    <body id="body" data-spy="scroll" data-target="#menu-list">
+
+        <!--  start page loader  -->
+        <div id="preloader">
+            <div class="scroll-static"></div>
+        </div>
+        <!--  end page loader  -->
+
+        <!-- begin of main-wrapper -->
+        <div class="main-wrapper">
+            <!-- begin of navbar -->
+            <div class="nav-bar">
+                <!-- begin of scroll-indicator -->
+                <div class="scroll-indicator"></div>
+                <nav>
+                    <ul id="menu-list">
+                        <li class="nav-item">
+                            <a class="active nav-link" href="#body" data-text="Home">
+                                <span>01</span>Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about" data-text="About">
+                                <span>02</span>About
+                            </a>   
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience" data-text="Experience">
+                                <span>03</span>Experience
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education" data-text="Education">
+                                <span>04</span>Education
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills" data-text="Skills">
+                                <span>05</span>Skills
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects" data-text="Projects">
+                                <span>06</span>Projects
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#certifications" data-text="Certifications">
+                                <span>07</span>Certifications
+                            </a>
+                        </li>
+                        <!--<li class="nav-item">  
+                            <a class="nav-link" href="#blogs" data-text="Blogs">
+                                <span>08</span>Blogs
+                            </a>
+                        </li>-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact" data-text="Contact">
+                            <span>08</span>Contact
+                            </a>
+                        </li>                        
+                    </ul> 
+                    <br><br><br>
+                </nav>
+            </div>
+            <!-- end of navbar -->
+
+
+            <!-- begin of main-content -->
+            <div class="main-content">
+                <!-- begin of header -->
+                <header>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-7">
+                                <!-- logo -->
+                                <div class="logo">
+                                    <a href="#">Debagnik Kar</a>
+                                </div>
+                            </div>
+                            <div class="col-5">
+                                <a href="http://old.debagnik.in" target="_blank" class="default-btn header-action-btn"><i class="ti-agenda"></i>View Old Site</a>
+                                <div class="default-btn menu-btn">
+                                    <i class="ti-menu"></i>
+                                    <i class="ti-close"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <!-- end of header -->
+
+                <!-- begin of home -->
+                <div class="home-wrapper">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <div class="col-md-5 col-sm-5">
+                                <div class="hero-img wow fadeIn" data-wow-delay=".2s">
+                                    <div class="shape"></div>
+                                    <!-- image -->
+                                    <img class="img-fluid" src="img/debagnik_kar.webp" alt="Debagnik Kar Profile Picture">
+                                </div>
+                            </div>
+
+                            <div class="col-md-7 col-sm-7">
+                                <div class="hero-content">
+                                    <h2 class="intro-name">
+                                        <span class="wow slideInLeft">Kon'nichiwa</span>
+                                        <span class="wow slideInLeft" data-wow-delay=".2s">I'm, Debagnik Kar</span>
+                                    </h2>
+                                    <p>
+                                        <span class="wow slideInLeft" data-wow-delay=".5s">Software Developer | IoT Enthusiast | Electronics Engineer | Youtuber</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of home -->
+
+                <!-- begin of about -->
+                <div id="about" class="wrapper about-wrapper">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- section heading -->
+
+                                <h3 class="wrapper-heading">About Me</h3>
+
+                                <h4 class="about-sub-heading">Hello, I am Debagnik Kar. Here a little about me  ^_^ </h4>
+                                <p class="about-text">
+                                    I am a Software Developer and an Electronics and Telecommunication Engineer.<br/>
+                                    I have a keen interest in IoT, Cloud Computing, cyber security, blockchain, and cryptography. I'm also an embedded system developer with good knowledge of various programming languages like C/C++, Java, and Python 3. Oh, and I'm always up for talking about AI and Machine Learning too! I absolutely love structure and order, and you'll often find me fixing little details. I'm open-minded and love exploring new ideas, and I thrive in collaborative team efforts. Learning becomes more fun and efficient when we work together!
+                                </p>
+                                <a href="https://mega.nz/file/xQxUhDYZ#2yNGcqQJWzFO2QqKKPYoMzAk2tZSpGn1rai4S-hanUs" target="_blank"  class="default-btn"><i class="ti-agenda"></i> Download CV</a>
+
+                                <!-- social profile links -->
+                                <div class="social-links">
+                                    <span>Connect with Me </span>
+                                    <ul>
+                                        <li><a href="https://twitter.com/DebagnikK?original_referer=http%3A%2F%2Fdebagnik.in%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Efollow%7Ctwgr%5EDebagnikK&region=follow_link&screen_name=DebagnikK" data-text="tw" target="_blank"><i class="ti-twitter"></i></a></li>
+                                        <li><a href="https://www.instagram.com/Rak_Kingabed/" data-text="ig" target="_blank"><i class="ti-instagram"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/rakkingabed/" data-text="in" target="_blank"><i class="ti-linkedin"></i></a></li>
+                                        <!--<li><a href="https://medium.com/@kingabed" data-text="me" target="_blank"><i class="ti-mobile"></i></a></li>-->
+                                        <li><a href="https://www.youtube.com/@Rak_Kingabed" data-text="yt" target="_blank"><i class="ti-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of about -->
+                
+
+                <!-- begin of experience -->
+                <div id="experience" class="wrapper experience-wrapper">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- section heading -->
+                                <h3 class="wrapper-heading">Experience</h3>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="experience-single">
+                                    <h4 class="company">IBM</h4>
+                                    <p class="position-name">System Engineer</p>
+                                    <p class="mute-text">May 2022 - Present</p>
+                                    <p class="company-info">SAP Commerce Backend developer, Full-Stack Software Tester</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="experience-single">
+                                    <h4 class="company">Cognizant Technology Services</h4>
+                                    <p class="position-name">Programmer Analyst Trainee</p>
+                                    <p class="mute-text">Jan 2022 - Apr 2022</p>
+                                    <p class="company-info">Extract-Transform-Load Tools ,Data Engineer, Informatica, Business Intelligence, MS PowerBi, IBM Cognos</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="experience-single">
+                                    <h4 class="company">Digital Disruption Signapore, PTE Ltd</h4>
+                                    <p class="position-name">Machine Learning and Data Science research Intern</p>
+                                    <p class="mute-text">Jan 2021 - Mar 2021</p>
+                                    <p class="company-info">Machine Learning, Deep Learning Models, Artificial Intelligence and Data Science Research</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="experience-single">
+                                    <h4 class="company">Texas Instruments University Programme</h4>
+                                    <p class="position-name">Embedded System Engineer</p>
+                                    <p class="mute-text">Jun 2020 - Jul 2020</p>
+                                    <p class="company-info">Advanced Embedded System Design using Tiva C Series Microcontroller organized by EdGate Technologies Pvt Ltd</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="experience-single">
+                                    <h4 class="company">Futoscope Foundation</h4>
+                                    <p class="position-name">IT and Tech Support Volunteer</p>
+                                    <p class="mute-text">Dec 2018 - Dec 2020</p>
+                                    <p class="company-info">Voluteered as a Tech Support personnel for a not-for-profit foundation</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="experience-single">
+                                    <h4 class="company">MIT-IIT-Kgp Summer Intership (MISTI)</h4>
+                                    <p class="position-name">Intern</p>
+                                    <p class="mute-text">May 2017 - Jun 2017</p>
+                                    <p class="company-info">Under the guidance of Amartya Shankya Biswas, An internship on embedded systems and robotics</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of experience -->
+                
+                <!-- begin of education -->
+                <div id="education" class="wrapper education-wrapper">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- section heading -->
+                                <h3 class="wrapper-heading">Education</h3>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="education-single">
+                                    <h4 class="course-name">B.Tech in Electronics and Telecommunication Engineering</h4>
+                                    <p class="institute">Kalinga Institute of Industrial Technology</p>
+                                    <p class="mute-text">2018 - 2022</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="education-single">
+                                    <h4 class="course-name">Senior Secondary Education</h4>
+                                    <p class="institute">Midnapore Collegiate School (WBCHSE)</p>
+                                    <p class="mute-text">2016 - 2018</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="education-single">
+                                    <h4 class="course-name">Secodary Education</h4>
+                                    <p class="institute">Dooars International Public School (CBSE)</p>
+                                    <p class="mute-text">2014 - 2016</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of education -->
+
+                <!-- begin of skills-->
+                <div id="skills" class="wrapper skills-wrapper">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6 margin-on-md">
+                                <!-- section heading -->
+                                <h3 class="wrapper-heading">Skills</h3>
+
+                                <!-- skill item -->
+                                <div class="skill-item">
+                                    <p>Backend Development</p>
+                                    <div class="skill-wrap">
+                                        <div class="skill-percent wow slideInLeft" style="width:85%"></div>
+                                    </div>
+                                </div>
+                                <!-- skill item -->
+                                <div class="skill-item">
+                                    <p>Fullstack Testing</p>
+                                    <div class="skill-wrap">
+                                        <div class="skill-percent wow slideInLeft" data-wow-delay=".1s" style="width:75%"></div>
+                                    </div>
+                                </div>
+                                <!-- skill item -->
+                                <div class="skill-item">
+                                    <p>Cryptography</p>
+                                    <div class="skill-wrap">
+                                        <div class="skill-percent wow slideInLeft" data-wow-delay=".2s" style="width:60%"></div>
+                                    </div>
+                                </div>
+                                <!-- skill item -->
+                                <div class="skill-item">
+                                    <p>Cybersecurity and Ethical Hacking</p>
+                                    <div class="skill-wrap">
+                                        <div class="skill-percent wow slideInLeft" data-wow-delay=".3s" style="width:60%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <!-- section heading -->
+                                <br><br><br><br>
+                                <!-- skill item -->
+                                <div class="skill-item">
+                                    <p>Python</p>
+                                    <div class="skill-wrap">
+                                        <div class="skill-percent wow slideInLeft" style="width:70%"></div>
+                                    </div>
+                                </div>
+                                <!-- skill item -->
+                                <div class="skill-item">
+                                    <p>Linux & Git</p>
+                                    <div class="skill-wrap">
+                                        <div class="skill-percent wow slideInLeft" data-wow-delay=".1s" style="width:90%"></div>
+                                    </div>
+                                </div>
+                                <!-- skill item -->
+                                <!-- skill item -->
+                                <div class="skill-item">
+                                    <p>IOT & Embedded System development</p>
+                                    <div class="skill-wrap">
+                                        <div class="skill-percent wow slideInLeft" data-wow-delay=".2s" style="width:85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of skills -->
+
+                <!-- begin of Projects -->
+                <div id="projects" class="wrapper experience-wrapper">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- section heading -->
+                                <h3 class="wrapper-heading">My Personal Projects</h3>
+                            </div>
+                            <div class="col-md-6" >
+                                <a href="https://i-vote.debagnik.in" target="_blank">
+                                    <div class="experience-single">
+                                        <h4 class="company">An I-Voting System using dual Blockchain Architecture</h4>
+                                        <p class="position-name">A blockchain based Voting system over the internet. Project presented and published at IRTM 2023</p>
+                                        <p class="mute-text">DOI: awaiting</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="projects\Gesture\readme.html" target="_blank">
+                                    <div class="experience-single">
+                                        <h4 class="company">Gesture Controlled Wireless Rover</h4>
+                                        <p class="position-name">Remote controller calculates orientation using an accelerometer and gyroscope, and commands the rover to move in a differencial movement.</p>
+                                        <p class="mute-text">Tags: Robotics, Control Systems, Embedded Systems</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="./projects/pong/readme.html" target="_blank">
+                                    <div class="experience-single">
+                                        <h4 class="company">Pong Game Clone</h4>
+                                        <p class="position-name">A 2D clone of the classic arcade pong game developed using java-based Processing3 langauge</p>
+                                        <p class="mute-text">Tags: Game, Java</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="./projects/poodle/readme.html" target="_blank">
+                                    <div class="experience-single">
+                                        <h4 class="company">Doodle jump Clone</h4>
+                                        <p class="position-name">A Clone of the classic single person arcade game Doodle jump made using Processing 3</p>
+                                        <p class="mute-text">Tags: Game, Java</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="./projects/BallPlate_assignment/readme.html" target="_blank">
+                                    <div class="experience-single">
+                                        <h4 class="company">Ball-on-a-Plate Balancing System</h4>
+                                        <p class="position-name">A touch sentitive plate balances a ball from falling using 2 servos and a closed feedback loop via PID algotithm</p>
+                                        <p class="mute-text">Tags: Robotics, Electonics, PID</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="projects\Home\readme.html" target="_blank">
+                                    <div class="experience-single">
+                                        <h4 class=company>Internet-connected smart home automation system using MQTT</h4>
+                                        <p class="position-name">Developing a internet-connected electric switch-board capable of running home automation routines and controlled via voice assistants such as Alexa</p>
+                                        <p class="mute-text">Tags: Networking, IoT, Embedded Systems</p>
+                                    </div>
+                                </a>
+                            </div>
+
+
+
+
+                            
+
+
+
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- end of Projects -->			
+
+
+
+                <!-- begin of certification-->
+                <div id="certifications" class="wrapper experience-wrapper">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- section heading -->
+                                <h3 class="wrapper-heading">Certifications & Achievements</h3>
+                            </div>
+
+                            <div class="col-md-6">
+                                <a href="example.com" target="_blank">
+                                    <div class="experience-single">
+                                        <h4 class="company">lorem ipsum</h4>
+                                        <p class="position-name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget iaculis nibh. Maecenas sit amet viverra dolor</p>
+                                        <p class="mute-text">Credentials: Lorem Ipsum</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- end of certs-wrapper -->
+
+                <!--
+                    !-- begin of blogs ->
+
+                <div id="blogs" class="wrapper blogs-wrapper">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                
+                                <!- section heading ->
+                                <h3 class="wrapper-heading">Blogs</h3>
+                                <br>
+                                <h4> Read my Blogs on <a href="https://medium.com/@kingabed" class="blog-title">Medium</a></h4>
+                                <br>
+                                <br>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="blog-item">
+                                    <a href="https://medium.com/404" target="_blank">
+                                        <div class="blog-img">
+                                            <img class="img-fluid" src="img/open-re.png" alt="Lorem Ipsum">
+                                        </div>
+                                        <div class="blog-info">
+                                            <h4 class="blog-title">
+                                                    <span>Lorem ipsum dolor sit amet</span>
+                                            </h4>	
+                                        </div>		
+                                    </a>
+                                </div>	
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-End of Blogs->
+            -->
+                          
+
+                <!-- begin of contact -->
+                <div id="contact" class="wrapper contact-wrapper">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- section heading -->
+                                <h3 class="wrapper-heading">Get in Touch</h3>
+                                <p>Best way to get in touch with me is via email</p>
+                            </div>
+                            <div class="col-lg-12 col-md-12">
+                                <div class="contact-info">
+                                    <p><span class="ti-email"></span><a href="mailto:debagnikkar@outlook.com">debagnikkar@outlook.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of contact -->
+
+                <!-- begin of contact-Social -->
+                <footer class="wrapper footer-wrapper">
+                    <div class="container-fluid">
+                        <div class="col-md-12 text-center">
+                            <div class="footer-social">
+                                <a href="https://twitter.com/DebagnikK" target="_blank">Twitter</a>
+                                <a href="https://www.instagram.com/Rak_Kingabed" target="_blank">Instagram</a>
+                                <a href="https://www.linkedin.com/in/rakkingabed/" target="_blank">Linkedin</a>
+                                <a href="https://www.youtube.com/@Rak_Kingabed" target="_blank">Youtube</a>
+                                <a href="https://open.spotify.com/artist/5dFq7tR1ZJpQLnUvmS4oK5" target="_blank">Spotify</a>
+                                <a href="https://github.com/Debagnik" target="_blank">Github</a>
+                                <!--<a href="https://medium.com/" target="_blank">Medium</a>-->
+                            </div>
+                            <p class="footer-copyright">© Copyright 2023 - Debagnik Kar</p>
+                        </div>
+                    </div>
+                </footer>
+                <!-- end of contact-Socials -->
+
+                <!-- scroll-to top -->
+                <a class="default-btn scroll-to-top" href="#body"><span class="ti-angle-up "></span></a>
+
+            </div>
+            <!-- end of main-content -->
+        </div>
+        <!-- end of main -->
+
+    </body>
+     <!-- 
+     * Copyright (C) Debagnik Kar - All Rights Reserved
+     * Unauthorized copying of this file, via any medium is strictly prohibited
+     * Written by Debagnik Kar, September 2023
+     * Last Updated jul 2023
+    -->
+
+</html>
